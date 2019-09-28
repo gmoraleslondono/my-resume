@@ -37,6 +37,16 @@ img {
     border-radius: 50%;
 }
 
+.contactInfo {
+    display:flex;
+    flex-direction: column;
+}
+
+.contactInfo a {
+    text-decoration: none;
+    color: black;
+}
+
 .social {
     width: 90%;
     display: flex;
