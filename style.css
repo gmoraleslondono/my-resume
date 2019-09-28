@@ -1,12 +1,108 @@
-.header {
- background-color: greenyellow;
+* {
+    margin: 0;
+    padding: 0;
 }
-.name {
+body {
+    margin: 3% 0;
+}
 
+main {
+ background-color:#AAE1FC;
+ padding: 2%;
 }
+
+.profile {
+    margin: 2% 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    margin: 0 10%;
+}
+
+aside {
+    width: 30%;
+    height: 100vh;
+}
+
+.photo {
+    width: 100%;
+    text-align: center;
+}
+
+img {
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.social {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 10% 0;
+}
+
+.link .fab {
+    font-size: 45px;
+    color:#AAE1FC;
+}
+
+.skillsList {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+mark{
+    background-color: #AAE1FC;
+    margin: 1% 0;
+    padding: 2%;
+}
+
+h3 {
+    font-size: 30px;
+    color:#AAE1FC;
+}
+
+h1 {
+    font-size: 35px;
+}
+
 .position {
-
+    font-size: 25px;
 }
-.summary {
 
+article {
+    width: 60%;
+}
+
+section {
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+.circle {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #AAE1FC; 
+    border-radius: 50%;
+    margin: 0 1%;
+}
+
+.fill {
+    background-color: #AAE1FC;
+}
+
+.languages {
+    display: flex;
+    flex-direction: row;
+    margin: 3% 0;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
 }
