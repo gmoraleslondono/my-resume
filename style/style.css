@@ -75,6 +75,7 @@ mark{
 h3 {
     font-size: 30px;
     color:#AAE1FC;
+    margin-bottom: 8px;
 }
 
 h1 {
@@ -111,6 +112,26 @@ section {
     flex-direction: row;
     margin: 3% 0;
 }
+
+.company-name {
+    text-decoration: none;
+    color: black;
+    
+}
+
+.period-location {
+    display: grid;
+    grid-template-areas: 'time . location';
+    grid-template-columns: auto 1fr auto;
+  }
+  
+  .period-location .period {
+    grid-area: time;
+  }
+  
+  .period-location .location {
+    grid-area: location;
+  }
 
 footer {
     width: 100%;
