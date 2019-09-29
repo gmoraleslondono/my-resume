@@ -3,7 +3,7 @@
     padding: 0;
 }
 body {
-    margin: 3% 0;
+    margin: 3% 0 1%;;
 }
 
 main {
@@ -23,7 +23,7 @@ main {
 
 aside {
     width: 30%;
-    height: 100vh;
+    height: auto;
 }
 
 .photo {
@@ -115,4 +115,6 @@ section {
 footer {
     width: 100%;
     text-align: center;
+    margin: 0;
+    font-weight: bold;
 }
