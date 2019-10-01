@@ -1,2 +1,4 @@
 # my-resume
-Vue vixens projects
+Single page resume. Built using HTML, CSS and JavaScript.
+
+Made with ❤ by Gloria Morales.
